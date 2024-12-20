@@ -1,0 +1,28 @@
+ATMProject/
+│
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── com/
+│   │   │       └── atm/
+│   │   │           ├── dao/
+│   │   │           │   ├── AccountDAO.java
+│   │   │           │   └── TransactionDAO.java
+│   │   │           ├── model/
+│   │   │           │   ├── Account.java
+│   │   │           │   └── Transaction.java
+│   │   │           ├── service/
+│   │   │           │   └── ATMService.java
+│   │   │           └── Main.java
+│   │   └── resources/
+│   │       └── db.properties
+│   └── test/
+│       └── java/
+│           └── com/
+│               └── atm/
+│                   └── ATMSampleTest.java
+│
+├── lib/
+│   └── mysql-connector-java-x.x.x.jar
+│
+└── pom.xml (if using Maven)
